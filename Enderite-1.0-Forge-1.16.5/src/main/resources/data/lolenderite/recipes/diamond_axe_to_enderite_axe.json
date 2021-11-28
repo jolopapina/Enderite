@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:diamond_axe"
+    },
+    "addition": {
+        "item": "lolenderite:enderite_gem"
+    },
+    "result": {
+        "item": "lolenderite:enderite_axe"
+    }
+}

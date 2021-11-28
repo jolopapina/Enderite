@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ii",
+        "ii"
+    ],
+    "key": {
+        "i": {
+            "item": "lolenderite:cooked_enderite"
+        }
+    },
+    "result": {
+        "item": "lolenderite:enderite_gem",
+        "count": 1
+    }
+}

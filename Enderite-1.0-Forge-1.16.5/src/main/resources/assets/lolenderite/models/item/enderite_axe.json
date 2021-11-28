@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "lolenderite:items/enderite_axe"
+	}
+}
