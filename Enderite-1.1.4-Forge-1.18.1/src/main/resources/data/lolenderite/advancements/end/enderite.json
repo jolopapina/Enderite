@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "lolenderite:enderite_ingot"
+    },
+    "title": "Enderite",
+    "description": "Cook some Raw Enderite and craft them into an Ingot",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:end/elytra",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": [
+              "lolenderite:enderite_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

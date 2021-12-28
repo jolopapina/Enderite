@@ -1,0 +1,15 @@
+modLoader="javafml"
+loaderVersion="[39,)" 
+license="MIT"
+
+[[mods]]
+modId="lolenderite"
+version="1.1.4-1.18.1"
+displayName="Enderite"
+logoFile="logo.png"
+displayURL="https://www.youtube.com/channel/UCRW9cQ_rbr1K30obCA4oHUQ"
+updateJSONURS="https://github.com/LieOnLion"
+authors="LieOnLion"
+description='''
+Adds Enderite to the Game
+'''
