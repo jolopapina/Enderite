@@ -1,2 +1,2 @@
-#Enderite
+Enderite
 LolEnderite Site
