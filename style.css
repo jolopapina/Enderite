@@ -11,5 +11,8 @@ body{
     background-attachment: fixed;
 }
 #images{
+    background: green;
     color: rebeccapurple;
+    border-radius: 5px;
+    border: 1;
 }
