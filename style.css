@@ -9,8 +9,15 @@ body{
     margin: 0px;
     background: rgb(194, 57, 248);
     background-attachment: fixed;
+    text-align:left;
 }
 #images{
+    background: rgb(0, 130, 0);
+    color: rebeccapurple;
+    border-radius: 5px;
+    border: 1;
+}
+#contact{
     background: rgb(0, 130, 0);
     color: rebeccapurple;
     border-radius: 5px;
