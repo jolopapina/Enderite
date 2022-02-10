@@ -16,3 +16,6 @@ body{
     border-radius: 5px;
     border: 1;
 }
+a {
+    text-decoration: none;
+}
