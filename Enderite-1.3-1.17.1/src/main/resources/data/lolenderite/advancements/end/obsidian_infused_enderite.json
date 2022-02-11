@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "lolenderite:obsidian_infused_enderite_ingot"
+    },
+    "title": "Obsidian infused Enderite",
+    "description": "Craft an Enderite Ingot but swap the End Stone with Obsidian",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "lolenderite:end/enderite",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": [
+              "lolenderite:obsidian_infused_enderite_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
