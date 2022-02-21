@@ -1,0 +1,22 @@
+{
+  "item.lolenderite.enderite_ingot": "Lingote de enderita",
+  "item.lolenderite.raw_enderite": "Enderita prima",
+  "item.lolenderite.enderite_fragment": "Fragmento de enderita",
+  "item.lolenderite.enderite_helmet": "Casco de enderita",
+  "item.lolenderite.enderite_chestplate": "Peto de enderita",
+  "item.lolenderite.enderite_leggings": "Grebas de enderita",
+  "item.lolenderite.enderite_boots": "Botas de enderita",
+  "item.lolenderite.enderite_sword": "Espada de enderita",
+  "item.lolenderite.enderite_shovel": "Pala de enderita",
+  "item.lolenderite.enderite_pickaxe": "Pico de enderita",
+  "item.lolenderite.enderite_axe": "Hacha de enderita",
+  "item.lolenderite.enderite_hoe": "Azada de enderita",
+  "block.lolenderite.enderite_block": "Bloque de enderita",
+  "block.lolenderite.enderite_ore": "Mineral de enderita",
+  "item.lolenderite.obsidian_infused_enderite_ingot": "Lingote de enderita con infusión de obsidiana",
+  "item.lolenderite.obsidian_infused_enderite_sword": "Espada de enderita con infusión de obsidiana",
+  "item.lolenderite.obsidian_infused_enderite_shovel": "Pala de enderita con infusión de obsidiana",
+  "item.lolenderite.obsidian_infused_enderite_pickaxe": "Pico de enderita de obsidiana",
+  "item.lolenderite.obsidian_infused_enderite_axe": "Hacha de enderita con infusión de obsidiana",
+  "item.lolenderite.obsidian_infused_enderite_hoe": "Azada de enderita con infusión de obsidiana"
+}
