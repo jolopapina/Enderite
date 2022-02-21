@@ -1,7 +1,4 @@
 # Enderite
-<a href="https://www.curseforge.com/minecraft/mc-mods/enderite-lieonlion">
-  <img src="http://cf.way2muchnoise.eu/full_enderite-lieonlion_downloads.svg" alt="Curseforge Downloads">
-</a>
 <a href="https://discord.gg/eFsz5SK">
   <img alt="Discord" src="https://img.shields.io/discord/861173675596054530?label=Discord">
 </a>
