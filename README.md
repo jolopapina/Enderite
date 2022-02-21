@@ -2,7 +2,6 @@
 <a href="https://discord.gg/eFsz5SK">
     <img alt="Discord" src="https://img.shields.io/discord/861173675596054530?label=Discord">
 </a>
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/LieOnLion/Enderite?label=Repos%20Size">
 <a href=https://github.com/LieOnLion/Enderite/blob/main/LICENSE>
     <img alt="GitHub" src="https://img.shields.io/github/license/LieOnLion/Enderite">
 </a>
