@@ -28,4 +28,4 @@
 
 13- lol_us
 
-# !1-10 don't have advancements tranlated yet!
+# !1-10 don't have advancements translated yet!
