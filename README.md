@@ -12,6 +12,6 @@
    <img alt="Twitch Status" src="https://img.shields.io/twitch/status/lieonlion4">
 </a>
 
-Adds an Enderite to the game :)
+Adds Enderite to the game :)
 
 1.16.5 is beta
