@@ -24,7 +24,7 @@
 
 11- fr_fr
 
-12- lol_gb - another of my custom packs adds that
+12- lol_gb - Pack Here That Adds lol_gb - https://github.com/LieOnLion/LOL-Cat-gb
 
 13- lol_us
 
