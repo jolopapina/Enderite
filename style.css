@@ -6,12 +6,21 @@
     text-decoration: none;
 }
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: linear-gradient(rgb(205, 80, 255),rebeccapurple);
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .navigation{
     position: relative;
@@ -65,6 +74,9 @@ body{
     top: 100px;
     position: relative;
     height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .contact ul{
     display: flex;
@@ -84,9 +96,9 @@ body{
 }
 .contact ul li a .icon{
     position: relative;
-    line-height: 20px;
+    line-height: 40px;
     transition: 0.5s;
-    font-size: 20px;
+    font-size: 45px;
     color: black;
 }
 .contact ul li a .text{
@@ -101,6 +113,9 @@ body{
     top: 100px;
     position: relative;
     height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .media ul{
     display: flex;
@@ -120,23 +135,23 @@ body{
 }
 .media ul li a .iconYT{
     position: relative;
-    line-height: 20px;
+    line-height: 40px;
     transition: 0.5s;
-    font-size: 20px;
+    font-size: 45px;
     color: red;
 }
 .media ul li a .iconTW{
     position: relative;
-    line-height: 20px;
+    line-height: 40px;
     transition: 0.5s;
-    font-size: 20px;
+    font-size: 45px;
     color: rebeccapurple;
 }
 .media ul li a .iconDC{
     position: relative;
-    line-height: 20px;
+    line-height: 40px;
     transition: 0.5s;
-    font-size: 20px;
+    font-size: 45px;
     color: blue;
 }
 .media ul li a .text{
@@ -146,4 +161,52 @@ body{
     font-weight: 200;
     transition: 0.25s;
     color: black;
+}
+.image{
+    top: 100px;
+    position: relative;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image ul{
+    display: flex;
+}
+.image ul li{
+    position: relative;
+    list-style: none;
+    width: 30px;
+    height: 35px;
+}
+.image ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image2{
+    top: 130px;
+    position: relative;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image2 ul{
+    display: flex;
+}
+.image2 ul li{
+    position: relative;
+    list-style: none;
+    width: 30px;
+    height: 35px;
+}
+.image2 ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

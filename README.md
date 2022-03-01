@@ -1,5 +1,4 @@
 # Enderite
-
 <a href="https://discord.gg/sA42pp6cuX">
     <img alt="Discord" src="https://img.shields.io/discord/861173675596054530?label=Discord">
 </a>
