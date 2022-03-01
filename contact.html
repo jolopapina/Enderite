@@ -9,22 +9,53 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="box1">
-        <a href="index.html">
-            <img src="icons/icon-home.png"height="30" title="Home" id="home">
-        </a>
-        <a href="contact.html">
-            <img src="icons/icon-discord.png"height="25" title="Discord" id="disord">
-        </a>
+    <div class="navigation">
+        <ul>
+            <li class="list">
+                <a href="index.html">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="images.html">
+                    <span class="icon"><ion-icon name="images-outline"></ion-icon></span>
+                    <span class="text">Images</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="contact.html">
+                    <span class="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+                    <span class="text">Contact</span>
+                </a>
+            </li>
+        </ul>
     </div>
-    <h1>Contacts</h1>
-    <p>
-        <a href="https://discord.gg/sA42pp6cuX">
-            <img src="icons/icon-discord.png"height="100" title="Discord" id="disord">
-        </a>
-        <a href="mailto:lieonlion4@gmail.com">
-            <img src="icons/icon-mail.png"height="100" title="Mail" id="mail">
-        </a>
-    </p>
+
+    <div class="contact">
+        <ul>
+            <li class="list">
+                <a href="mailto:lieonlion4@gmail.com">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <span class="text">Email</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="https://mail.google.com/mail/u/0/#search/lieonlion4%40gmail.com">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <span class="text">Gmail</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="https://discord.gg/sA42pp6cuX">
+                    <span class="icon"><ion-icon name="logo-discord"></ion-icon></span>
+                    <span class="text">Discord</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

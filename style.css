@@ -1,28 +1,99 @@
-body{
+*{
     margin: 0;
-    text-align: center;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(rgb(205, 80, 255),rebeccapurple);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-#box1{
-    margin: 0px;
-    background: rgb(194, 57, 248);
-    background-attachment: fixed;
-    text-align:left;
+.navigation{
+    position: relative;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(191, 43, 250);
 }
-#images{
-    background: rgb(0, 130, 0);
-    color: rebeccapurple;
-    border-radius: 5px;
-    border: 1;
+.navigation ul{
+    display: flex;
 }
-#contact{
-    background: rgb(0, 130, 0);
-    color: rebeccapurple;
-    border-radius: 5px;
-    border: 1;
+.navigation ul li{
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 35px;
 }
-a {
-    text-decoration: none;
+.navigation ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.navigation ul li a .icon{
+    position: relative;
+    line-height: 20px;
+    transition: 0.25s;
+    font-size: 22.5px;
+    color: black;
+}
+.navigation ul li:hover a .icon{
+    font-size: 20px;
+    color: rgb(70, 161, 167);
+}
+.navigation ul li a .text{
+    position: absolute;
+    font-size: 10;
+    bottom: -12px;
+    font-weight: 200;
+    transition: 0.25s;
+    transform: scale(0);
+    color: rgb(70, 161, 167);
+}
+.navigation ul li:hover a .text{
+    transform: scale(1);
+}
+.contact{
+    top: 100px;
+    position: relative;
+    height: 35px;
+}
+.contact ul{
+    display: flex;
+}
+.contact ul li{
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 35px;
+}
+.contact ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact ul li a .icon{
+    position: relative;
+    line-height: 20px;
+    transition: 0.5s;
+    font-size: 20px;
+    color: black;
+}
+.contact ul li a .text{
+    position: absolute;
+    font-size: 10;
+    bottom: -12px;
+    font-weight: 200;
+    transition: 0.25s;
+    color: black;
 }
