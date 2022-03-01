@@ -97,3 +97,53 @@ body{
     transition: 0.25s;
     color: black;
 }
+.media{
+    top: 100px;
+    position: relative;
+    height: 35px;
+}
+.media ul{
+    display: flex;
+}
+.media ul li{
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 35px;
+}
+.media ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.media ul li a .iconYT{
+    position: relative;
+    line-height: 20px;
+    transition: 0.5s;
+    font-size: 20px;
+    color: red;
+}
+.media ul li a .iconTW{
+    position: relative;
+    line-height: 20px;
+    transition: 0.5s;
+    font-size: 20px;
+    color: rebeccapurple;
+}
+.media ul li a .iconDC{
+    position: relative;
+    line-height: 20px;
+    transition: 0.5s;
+    font-size: 20px;
+    color: blue;
+}
+.media ul li a .text{
+    position: absolute;
+    font-size: 10;
+    bottom: -12px;
+    font-weight: 200;
+    transition: 0.25s;
+    color: black;
+}
