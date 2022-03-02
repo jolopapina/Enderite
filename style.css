@@ -11,6 +11,15 @@ body{
     background-attachment: fixed;
 }
 .logo{
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homepage{
+    position: relative;
+    top: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
