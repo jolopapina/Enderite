@@ -41,15 +41,12 @@ body{
     width: 100%;
 }
 h1{
-    position: relative;
-    top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 h2{
-    position: relative;
-    top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -245,20 +242,22 @@ h2{
     flex-direction: column;
 }
 .home{
+    margin-top: 100px;
     position: relative;
 }
 .home ul li{
     position: relative;
     list-style: none;
+    margin-bottom: 3%;
 }
 .home ul li .about{
     position: relative;
     color: rebeccapurple;
     list-style: none;
-    top: 100px;
+    padding: 50px 25px;
     left: 2.5%;
     width: 95%;
-    height: 200px;
+    height: auto;
     justify-content: center;
     align-items: center;
     background: rgb(70, 161, 167);
@@ -269,10 +268,10 @@ h2{
     text-align: center;
     color: rebeccapurple;
     list-style: none;
-    top: 125px;
+    padding: 50px 25px;
     left: 2.5%;
     width: 95%;
-    height: 450px;
+    height: auto;
     justify-content: center;
     align-items: center;
     background: rgb(70, 161, 167);
@@ -283,8 +282,14 @@ h2{
     color: rebeccapurple;
     list-style: none;
     display: inline-block;
-    top: 14%;
-    margin-bottom: 125px;
+}
+@media (max-width: 670px){
+    .home ul li .vid .vids{
+        display: block;
+    }
+    .home ul li .vid .vids embed{
+        width: 100% !important;
+    }
 }
 ion-icon{
     pointer-events: none;
