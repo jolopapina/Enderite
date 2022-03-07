@@ -278,19 +278,20 @@ h2{
     border-radius: 15px;
 }
 .home ul li .vid .vids{
-    margin-bottom: 2%;
     color: rebeccapurple;
     list-style: none;
     display: inline-block;
 }
 @media (max-width: 670px){
     .home ul li .vid .vids {
+        margin-bottom: 2%;
         position: relative;
         padding-bottom: 56.25%; /* 16:9 */
         height: 0;   
         display: block;
     }
-    .home ul li .vid .vids embed, .home ul li .vid .vids iframe{
+    .home ul li .vid .vids embed,
+    .home ul li .vid .vids iframe{
         position: absolute;
         top: 0;
         left: 0;
