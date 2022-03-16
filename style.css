@@ -60,12 +60,15 @@ header{
     color: aqua;
 }
 .contact{
-    top: 100px;
     position: relative;
-    height: 35px;
+    height: 130px;
+    width: 60%;
+    left: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgb(205, 80, 255);
+    border-bottom: 25px solid rgb(205, 80, 255);
 }
 .contact ul{
     display: flex;
@@ -99,12 +102,15 @@ header{
     color: white;
 }
 .media{
-    top: 100px;
     position: relative;
-    height: 35px;
+    height: 130px;
+    width: 60%;
+    left: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgb(205, 80, 255);
+    border-bottom: 25px solid rgb(205, 80, 255);
 }
 .media ul{
     display: flex;
@@ -152,13 +158,15 @@ header{
     color: white;
 }
 .image{
-    top: 100px;
     position: relative;
-    height: 0px;
+    height: 50px;
+    width: 60%;
+    left: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rebeccapurple;
+    background-color: rgb(205, 80, 255);
+    border-top: 10px solid rgb(205, 80, 255);
 }
 .image ul{
     display: flex;
@@ -177,12 +185,15 @@ header{
     flex-direction: column;
 }
 .image2{
-    top: 130px;
     position: relative;
-    height: 0px;
+    height: 50px;
+    width: 60%;
+    left: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(205, 80, 255);
+    border-top: 10px solid rgb(205, 80, 255);
 }
 .image2 ul{
     display: flex;
@@ -229,7 +240,6 @@ header{
     padding: 50px 25px;
     left: 2.5%;
     width: 95%;
-    height: auto;
     justify-content: center;
     align-items: center;
     background: rgb(205, 80, 255);
@@ -242,7 +252,6 @@ header{
     padding: 50px 25px;
     left: 2.5%;
     width: 95%;
-    height: auto;
     justify-content: center;
     align-items: center;
     background: rgb(205, 80, 255);
@@ -256,7 +265,7 @@ header{
     .home ul li .vid .vids {
         margin-bottom: 2%;
         position: relative;
-        padding-bottom: 56.25%; /* 16:9 */
+        padding-bottom: 56.25%;
         height: 0;   
         display: block;
     }
