@@ -279,6 +279,29 @@ header{
         height: 100% !important;
     }
 }
+.studios{
+    height: 80px;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.studios ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.studios ul li span{
+    color: white;
+}
+.end{
+    background: rebeccapurple;
+    height: 30px;
+    width: 100%;
+}
 ion-icon{
     pointer-events: none;
 }
