@@ -173,14 +173,18 @@ header{
     list-style: none;
     padding: 50px 25px;
     width: 100%;
-    height: 20em;
+    height: 15em;
     justify-content: center;
     align-items: center;
     background: rgb(205, 80, 255);
     border-left: 2em solid black;
     border-right: 2em solid black;
+    margin-bottom: 13.7%;
+}
+.image ul li .images div{
     display: flex;
-    margin-bottom: 7.4%;
+    justify-content: center;
+    align-items: center;
 }
 .home{
     margin-top: 10px;
